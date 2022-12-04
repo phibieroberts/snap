@@ -99,12 +99,21 @@ ul.submenu li img {
 }
 
 @media screen and (max-width: 768px) {
+    .hero-text {
+        padding: 0px;
+        margin-top: 0px;
+    }
+    .hero-text h1{
+    font-size: 2.5rem;
+    }
+
   button {
     outline: none;
     border: none;
     background-color: transparent;
     font-size: 18px;
     font-weight: 600;
+    padding:10px;
   }
   .hidden {
     display: none;
