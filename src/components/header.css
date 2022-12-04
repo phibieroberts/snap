@@ -1,0 +1,162 @@
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+header {
+  width: 90%;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+  }
+
+  nav.navbar {
+    display: flex;
+  }
+  
+
+.menu {
+  display: none;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+#register {
+  border: 1px solid hsl(0, 0%, 41%);
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+ul.submenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  place-items: start;
+  align-items: start;
+  margin: 0px 0px;
+  margin-right: 0px;
+  background: #ffff;
+  padding: 0px 0px;
+  border-radius: 6px;
+  width: 8rem;
+}
+ul.submenu li {
+  display: flex;
+  justify-content: space-between;
+  color: #000;
+  margin: 15px 10px;
+}
+ul.submenu li img {
+  margin-right: 10px;
+}
+
+.navbutton button {
+  display: none;
+}
+
+@media screen and (min-width: 1028px) {
+  .navbar {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    width: auto;
+    padding: 0;
+    z-index: auto;
+  }
+  .navbar.open {
+    top: 0;
+    z-index: 99;
+    z-index: auto;
+  }
+
+  .header {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+  }
+  .logo {
+    margin-right: 30px;
+  }
+  .navbar div {
+    margin-right: 10px;
+  }
+  .navbar div ul {
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .hidden {
+    display: none;
+  }
+  .navbar {
+    position: absolute;
+    top: -100%;
+    right: 0;
+    /* left: 0; */
+    bottom: 0;
+    width: 50%;
+    padding: 1rem;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+  }
+  nav.navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .career {
+    margin-bottom: 5px;
+  }
+  .menu {
+    display: flex;
+  }
+  .navbar.open {
+    top: 5rem;
+    z-index: 99;
+    background: #fff;
+  }
+  .navbutton button {
+    display: flex;
+    margin: auto;
+  }
+
+  ul.submenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    place-items: start;
+    align-items: start;
+    margin: 0px 0px;
+    margin-right: 0px;
+  }
+  ul.submenu li {
+    display: flex;
+    justify-content: space-between;
+    color: #000;
+    margin: 10px 20px;
+  }
+  ul.submenu li img {
+    margin-right: 10px;
+  }
+}
