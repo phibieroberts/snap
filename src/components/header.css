@@ -100,8 +100,8 @@ ul.submenu li img {
 
 @media screen and (max-width: 768px) {
     .hero-text {
-        padding: 0px;
-        margin-top: 0px;
+        padding: 0px !important;
+        margin-top: 0px !important;
     }
     .hero-text h1{
     font-size: 2.5rem;

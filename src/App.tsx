@@ -1,12 +1,10 @@
 import React from 'react';
 import './App.css';
-import Main from './Main';
+import Main from './components/Main';
 
 function App() {
   return (
     <>
-    {/* <Nav /> */}
-    {/* <Drop /> */}
     <Main />
 </>
   );

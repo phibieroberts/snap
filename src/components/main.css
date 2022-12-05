@@ -10,24 +10,22 @@
 .hero-text {
   padding: 20px;
   margin-top: 40px;
+  line-height: 1.6;
 }
 
-
 h1 {
-    font-size: 60px;
-    line-height: 60px;
-  }
-  p {
-    font-size: 18px;
-    padding-right: 80px;
-    text-align: justify;
-    margin: 20px 0px;
-  }
-  
+  font-size: 60px;
+  line-height: 60px;
+}
+p {
+  font-size: 18px;
+  padding-right: 80px;
+  margin: 20px 0px;
+}
+
 .hero-img {
-    padding: 20px;
-  }
-  
+  padding: 20px;
+}
 
 button#learn-more {
   padding: 15px 25px;

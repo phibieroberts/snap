@@ -1,11 +1,11 @@
 import React from 'react'
-import Header from "./components/Header"
-import mobile from "./images/image-hero-mobile.png";
-import desktop from "./images/image-hero-desktop.png"
-import audiophile from "./images/client-audiophile.svg";
-import databiz from "./images/client-databiz.svg";
-import maker from "./images/client-maker.svg";
-import meet from "./images/client-meet.svg";
+import Header from "./Header"
+import mobile from "../images/image-hero-mobile.png";
+import desktop from "../images/image-hero-desktop.png"
+import audiophile from "../images/client-audiophile.svg";
+import databiz from "../images/client-databiz.svg";
+import maker from "../images/client-maker.svg";
+import meet from "../images/client-meet.svg";
 import "./main.css"
 function Main() {
   return (

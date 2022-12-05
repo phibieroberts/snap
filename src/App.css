@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Red+Rose&display=swap');
 *{
   padding: 0;
   margin: 0;
@@ -7,6 +7,7 @@
 
 body{
   background-color: hsl(0, 0%, 98%);
+  font-family: 'Epilogue', sans-serif;
 }
 li,p,button{
   color: hsl(0, 0%, 41%);
